@@ -1,6 +1,8 @@
 // Importación de dependencias de npm
 import $ from 'jquery';
-import 'bootstrap';
+// Importa Bootstrap correctamente
+import 'bootstrap/dist/js/bootstrap.bundle.min'; // JS + Popper
+import 'bootstrap/dist/css/bootstrap.min.css'; // CSS
 import Masonry from 'masonry-layout';
 import 'owl.carousel';
 import 'jquery-barfiller';
