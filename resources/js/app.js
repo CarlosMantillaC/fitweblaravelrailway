@@ -3,6 +3,15 @@ document.addEventListener('DOMContentLoaded', () => {
     document.documentElement.style.visibility = 'visible';
 });
 
+import jQuery from 'jquery';
+import Popper from '@popperjs/core';
+import Masonry from 'masonry-layout';
+import evEmitter from 'ev-emitter';
+import getSize from 'get-size';
+import fizzyUIUtils from 'fizzy-ui-utils';
+import Outlayer from 'outlayer';
+import matchesSelector from 'desandro-matches-selector';
+
 import '../assets/css/bootstrap.min.css';
 import '../assets/css/font-awesome.min.css';
 import '../assets/css/flaticon.css';
