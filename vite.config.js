@@ -11,12 +11,4 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    optimizeDeps: {
-        include: [
-            'jquery',
-            'popper.js',
-            'masonry-layout',
-            // Añade otras dependencias si es necesario
-        ],
-    },
 });
