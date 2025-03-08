@@ -11,15 +11,4 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    resolve: {
-        alias: {
-            'jquery': 'jquery/dist/jquery.min.js',
-            'desandro-matches-selector': 'desandro-matches-selector/matches-selector.js',
-            'popper.js': '@popperjs/core/dist/umd/popper.min.js',
-            'ev-emitter': 'ev-emitter/ev-emitter.js',
-            'get-size': 'get-size/get-size.js',
-            'fizzy-ui-utils': 'fizzy-ui-utils/utils.js',
-            'outlayer': 'outlayer/outlayer.js'
-        }
-    }
 });
